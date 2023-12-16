@@ -1,0 +1,72 @@
+baseurl = "http://localhost:1313/"
+title = "Sonu Kumar Kushwaha"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+#disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Sonu Kumar Kushwaha"
+  info = "MTech Computer Science Student at IIT Indore"
+  description = "Sonu personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "/img/WhatsAppsonu.jpg"
+  #gravatar = "sksonukushwaha403@email.com"
+
+  faviconSVG = "/img/developer.svg"
+  favicon_32 = "/img/developer.png"
+  favicon_16 = "/img/developer.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+#If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
+#[params.goatCounter]
+#code = "code"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/sonukushwaha403/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://linkedin.com/in/sonu-kumar-kushwaha-b0ab22190"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/Sonukum68800604/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "https://medium.com/@sksonukushwaha403"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"

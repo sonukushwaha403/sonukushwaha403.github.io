@@ -1,0 +1,4 @@
+baseURL = 'https://viveksahu26.github.io/'
+languageCode = 'en-us'
+title = 'Sonu Kumar Kushwaha'
+theme = 'hugo-coder'
